@@ -37,8 +37,8 @@ public class Shooting : MonoBehaviour
             // Check if the cursor is not over the turret placement block or UI element
             if (!soundManager.IsPointerOverTurretPlacementBlock() && !soundManager.IsPointerOverUI())
             {
-                soundManager.PlayShootSound();
                 Shoot();
+                soundManager.PlayShootSound();
             }
             yield return new WaitForSeconds(fireRate);
         }
