@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class LevelManager : MonoBehaviour
 {
-
     public static LevelManager main;
 
     public Transform[] path;
     public Transform startpoint;
+    public Home home; // Reference to the Home script
 
     public int currency;
 
@@ -17,17 +17,14 @@ public class LevelManager : MonoBehaviour
         main = this;
     }
 
-
     private void Start()
     {
         currency = 100;
     }
 
-
     public void IncreaseCurrency(int amount)
     {
         currency += amount;
-
     }
 
     public bool SpendCurrency(int amount)
@@ -36,7 +33,6 @@ public class LevelManager : MonoBehaviour
         {
             currency -= amount;
             return true;
-
         }
         else
         {
@@ -45,4 +41,11 @@ public class LevelManager : MonoBehaviour
         }
     }
 
+    public void EnemyReachedHome()
+    {
+        if (home != null)
+        {
+            home.TakeDamage(); // Call TakeDamage when an enemy reaches the home
+        }
+    }
 }
