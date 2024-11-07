@@ -6,9 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/MainMenu.unity
+    path: Assets/Scenes/0-MainMenu.unity
     guid: 96bafea645c5822419a7d94655328f47
   - enabled: 1
-    path: Assets/Scenes/TowerDefense.unity
+    path: Assets/Scenes/1-TowerDefense.unity
     guid: c85e52f36dfdb0b46ad57da3e4ea83d9
   m_configObjects: {}
