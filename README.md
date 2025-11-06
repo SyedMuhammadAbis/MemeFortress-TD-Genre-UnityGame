@@ -1,6 +1,6 @@
-# 🎮 Tower Defense Game - Meme Edition
+# 🎮 Meme Fortress
 
-A fun and entertaining **2D Tower Defense game** built in Unity that combines classic tower defense mechanics with player-controlled combat and hilarious meme sound effects! Defend your base against waves of enemies while strategically placing towers and taking matters into your own hands with direct combat.
+A fun and entertaining **2D Tower Defense game** built in Unity that combines classic tower defense mechanics with player-controlled combat and hilarious meme sound effects! Defend your fortress against waves of enemies while strategically placing towers and taking matters into your own hands with direct combat.
 
 ![Unity](https://img.shields.io/badge/Unity-2021.3.0f1-black?style=flat-square&logo=unity)
 ![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=c-sharp&logoColor=white)
@@ -26,7 +26,7 @@ The game features a unique twist with **meme sound effects** that make every act
 
 ### What is this game?
 
-**Tower Defense Game** is a strategic defense game where you must:
+**Meme Fortress** is a strategic defense game where you must:
 1. **Place towers** on designated plots to automatically attack enemies
 2. **Upgrade your towers** to increase damage, range, and fire rate
 3. **Control a player character** that can move around and shoot enemies directly
@@ -165,8 +165,8 @@ These sounds add personality and humor to the gameplay experience!
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/tower-defense-game.git
-   cd tower-defense-game
+   git clone https://github.com/yourusername/meme-fortress.git
+   cd meme-fortress
    ```
 
 2. Open the project in Unity:
@@ -316,7 +316,7 @@ Feel free to reach out if you have questions, suggestions, or want to collaborat
 
 ---
 
-**Enjoy the game and have fun defending your base! 🎮✨**
+**Enjoy Meme Fortress and have fun defending your fortress! 🎮✨**
 
 *Made with ❤️ and lots of "Pew!" sounds*
 
